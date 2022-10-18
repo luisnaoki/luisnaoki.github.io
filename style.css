@@ -1,0 +1,38 @@
+   body {
+      background-color: rgba(75, 76, 80, 0.452);
+      font-family: Arial
+    
+    }
+    #descrição {
+      text-align:justify ;
+    }
+   
+    .contatos{
+        width : "30px";
+        height: "30px";
+    }    
+    .picture {
+        text-align: center;
+        font-weight: bolder;
+    }
+
+    h2{
+      font-size: 18px;
+      color: blues;
+      font-family: Arial, Helvetica;
+      
+    }
+    p{
+      font-size: 15px;
+    }
+    li{
+      font-size: 15px;
+    }
+    h1{
+      font-family: 'Alkalami', serif;
+      font-size: 20px;
+      text-align: center;
+    }
+    .picture{
+        border-radius: 1000px;
+    }
