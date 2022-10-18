@@ -6,7 +6,9 @@
     #descrição {
       text-align:justify ;
     }
-   
+   .começo{
+    text-align: center;
+   }
     .contatos{
         width : "30px";
         height: "30px";
