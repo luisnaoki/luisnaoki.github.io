@@ -1,5 +1,5 @@
    body {
-     background:linear-gradient(-45deg,#855d51,#3f3c3d,#23A6D5,#2b2c2c);
+     background:linear-gradient(-45deg,#dd9883,#e2abbd,#23A6D5,#2b2c2c);
       background-size: 300% 300%;
       position: relative;
       animation:colors 15s ease infinite;
@@ -49,25 +49,23 @@
     
 
     h2{
-      font-size: 30px;
+      font-size: 25px;
       color: blues;
-      font-family: Arial, Helvetica;
       
     }
     p{
       font-size: 20px; 
-      font-family: Arial, Helvetica
+    
     }
     li{
       font-size: 15px;
     }
     h1{
-      font-family: Arial, Helvetica;
-      text-align: center;
+    font-size: 30px;
+    text-align: center;
     }
     .picture{
         border-radius: 200px;
-        align: center;
         height: 400px;
         top :50%;
         left: 50%;  
