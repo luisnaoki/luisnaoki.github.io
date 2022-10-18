@@ -1,8 +1,33 @@
    body {
-      background-color: rgba(75, 76, 80, 0.452);
+     background:linear-gradient(-45deg,#855d51,#3f3c3d,#23A6D5,#2b2c2c);
+      background-size: 300% 300%;
+      position: relative;
+      animation:colors 15s ease infinite;
       font-family: Arial
-    
     }
+    @keyframes colors {
+        0%{
+            background-position: 0% 50%;
+        }
+        50%{
+            background-position: 100% 50%
+            ;
+        }
+        100%{
+            background-position: 0% 50%;
+        }
+    }
+    
+.button{
+    background-color: green;
+    left: 50%;
+    color: rgb(255, 255, 255);
+    border-radius: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-weight: bolder;
+    
+}
     #descrição {
       text-align:justify ;
     }
@@ -13,13 +38,12 @@
         width : "30px";
         height: "30px";
     }    
-    .picture {
-        text-align: center;
-        font-weight: bolder;
-    }
+    
+    
+    
 
     h2{
-      font-size: 18px;
+      font-size: 20px;
       color: blues;
       font-family: Arial, Helvetica;
       
@@ -36,5 +60,9 @@
       text-align: center;
     }
     .picture{
-        border-radius: 1000px;
+        border-radius: 200px;
+        text-align: center;
+        height: 300px;
+        top :50%;
+        left: 50%;  
     }
