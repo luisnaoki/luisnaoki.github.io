@@ -20,7 +20,7 @@
             background-position: 0% 50%;
         }
     }
-    
+  
 .button{
     align-items: center;
     justify-content: center;
@@ -32,7 +32,7 @@
     padding: 10px 20px;
     box-sizing: border-box;
     font-weight: bolder;
-    
+    display: inline-block;
 }
     #descrição {
       text-align:justify ;
@@ -49,25 +49,25 @@
     
 
     h2{
-      font-size: 20px;
+      font-size: 30px;
       color: blues;
       font-family: Arial, Helvetica;
       
     }
     p{
-      font-size: 15px;
+      font-size: 20px; 
+      font-family: Arial, Helvetica
     }
     li{
       font-size: 15px;
     }
     h1{
-      font-family: 'Alkalami', serif;
-      font-size: 20px;
+      font-family: Arial, Helvetica;
       text-align: center;
     }
     .picture{
         border-radius: 200px;
-        text-align: center;
+        align: center;
         height: 400px;
         top :50%;
         left: 50%;  
