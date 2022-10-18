@@ -38,8 +38,13 @@
     color: black;
     background-color: rgb(255, 255, 255);
 }
-    #descrição {
-      text-align:justify ;
+    #descrição {   
+    height: 300px;
+    text-align:justify ;
+    }
+    .pessoa{
+    position: absolute;
+        
     }
    .começo{
     text-align: center;
@@ -72,4 +77,13 @@
         height: 400px;
         top :50%;
         left: 50%;  
+        height: 300px;
+    text-align:justify ;                
+    }
+    .wanted {
+        position: absolute;
+    top:200px;
+    left: 100px;
+        border-radius: 600px;
+        height: 300px;
     }
