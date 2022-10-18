@@ -35,6 +35,7 @@
     text-decoration: none;
 }
 .button:hover{
+    color: black;
     background-color: rgb(255, 255, 255);
 }
     #descrição {
