@@ -32,6 +32,10 @@
     padding: 10px 20px;
     box-sizing: border-box;
     display: inline-block;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: rgb(255, 255, 255);
 }
     #descrição {
       text-align:justify ;
